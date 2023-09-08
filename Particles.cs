@@ -13,9 +13,9 @@
 
         public Image particle;
 
-        public Particles(string filelocation)
+        public Particles(Image drop)
         {
-            particle = Image.FromFile(filelocation);
+            particle = drop;
             i = rand.Next(0, size.Length);
             height = size[i];
             width = size[i];
