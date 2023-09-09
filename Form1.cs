@@ -26,7 +26,7 @@ namespace Rain_Effect_WFApp
             for (int i = 0; i < rainDropCount; i++)
             {
                 Particles newParticles = new Particles(rainDropsList[rand.Next(0, rainDropsList.Count)]);
-                particles.Add(newParticles);
+                particles.Add(newParticles);            
             }
         }
 
@@ -58,8 +58,6 @@ namespace Rain_Effect_WFApp
                     tempImage.width, tempImage.height);
             }
         }
-
-
 
         private void onDropValueChanged(object sender, EventArgs e)
         {

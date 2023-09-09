@@ -23,7 +23,7 @@
             posX = rand.Next(-200, 800);
             posY = rand.Next(-700, -200);
 
-            speed = rand.Next(1, 10);
+            speed = rand.Next(1, 10);          
         }
     }
 }
